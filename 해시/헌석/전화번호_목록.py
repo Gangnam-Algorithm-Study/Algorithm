@@ -1,6 +1,3 @@
-
-
-
 def solution(phone_book):
     answer = True
     phone_book.sort(key = lambda x: len(x))
@@ -14,5 +11,3 @@ def solution(phone_book):
         phone_dict[num] = 1
 
     return answer
-
-print(solution(["12","123","1235","567","88"]))

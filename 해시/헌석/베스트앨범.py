@@ -1,5 +1,3 @@
-
-
 def solution(genres, plays):
     
     music = dict()
@@ -12,7 +10,6 @@ def solution(genres, plays):
         else:
             music[genres[i]] = [plays[i],plays[i]]
 
- 
     album = []
     for i in music:
         music[i].sort()
@@ -47,5 +44,3 @@ def solution(genres, plays):
                                     dis -= 1
 
     return answer
-
-print(solution(["classic", "pop", "classic", "classic", "pop", "rock", "rock", "rock"]	,[500, 600, 150, 800, 2500, 400, 400, 400]))

@@ -1,5 +1,3 @@
-
-
 def solution(clothes):
 
     clothes_dict = dict()
@@ -14,7 +12,4 @@ def solution(clothes):
     for clothe in clothes_dict:
         answer *= clothes_dict[clothe]+1
 
-    
     return answer -1
-
-print(solution([["yellow_hat", "headgear"], ["blue_sunglasses", "eyewear"], ["green_turban", "headgear"]]))
