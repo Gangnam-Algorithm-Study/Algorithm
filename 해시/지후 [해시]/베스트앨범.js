@@ -1,10 +1,9 @@
 function solution(genres, plays) {
     let allSumGenres = {};
+
     genres.forEach((item, idx) => {
         allSumGenres[item] = allSumGenres[item] ? allSumGenres[item] + plays[idx] : plays[idx]
     });
-
-    console.log(allSumGenres);
 
     var dupDic = {};
     const results = genres
@@ -21,7 +20,6 @@ function solution(genres, plays) {
         }).map((item) => {
             return item.index;
         })
-
 
     return results;
 }
