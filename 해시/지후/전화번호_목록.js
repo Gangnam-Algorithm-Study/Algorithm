@@ -6,5 +6,6 @@ function solution(phone_book) {
             return false
         }
     }
+
     return true;
 }
