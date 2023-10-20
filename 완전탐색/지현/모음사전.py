@@ -14,7 +14,7 @@
 #     permutation.sort()
 #     permutation.index(word)
 #     return answer
-
+ㅎ
 from itertools import product   #중복순열로 푼다.
 def solution(word):
     permutation=[]
