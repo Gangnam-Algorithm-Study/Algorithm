@@ -9,13 +9,6 @@
 
 from itertools import combinations
 from collections import deque
-import math
-
-
-        # if node not in visited:
-        #     for z in graph[node]:
-        #         q.append(z)
-        #         visited.append(z)
         
 def solution(n, wires):
     combiWires=list(combinations(wires, len(wires)-1))  #combiWires 에 연결 하나만 뺀 조합 경우의 수 모두 담는다. [(조합1), (조합2), ...] 형태가 될 예정
