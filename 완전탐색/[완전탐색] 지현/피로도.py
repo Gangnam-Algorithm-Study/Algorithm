@@ -26,7 +26,7 @@ def solution(k, dungeons):
 
     return answer
 
-a = [[80,20],[50,40],[30,10]]
-permute = permutations(a,2)
+# a = [[80,20],[50,40],[30,10]]
+# permute = permutations(a,2)
 
-print(list(permute))
+# print(list(permute))
