@@ -34,8 +34,7 @@ func solution(_ sizes:[[Int]]) -> Int {
     // 눕힌 도형들에서 가로의 max, 세로의 max값을 찾는다.
     let width = sizes.sorted(by: { $0[0] > $1[0] })[0][0]
     let height = sizes.sorted(by: { $0[1] > $1[1] })[0][1]
-    return width*height
-    
+    return width*height   
 }
 
 func solution(_ sizes:[[Int]]) -> Int {

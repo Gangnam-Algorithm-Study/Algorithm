@@ -45,6 +45,7 @@ function solution(answers) {
         if (secondStudent[i % secondStudent.length] === answers[i]) sumArr[1]++;
         if (thirdStudent[i % thirdStudent.length] === answers[i]) sumArr[2]++;
     }
+
     const maxValue = Math.max(...sumArr);
     let count = 0;
     let result = [];
