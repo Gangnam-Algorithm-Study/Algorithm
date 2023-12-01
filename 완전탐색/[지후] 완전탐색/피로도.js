@@ -26,8 +26,10 @@ function solution(k, dungeons) {
             // 헬퍼 메소드 재 실행
             dfs(k - use, copy, prev + 1);
         }
+
         return (result = Math.max(prev, result));
     };
+
     dfs(k, dungeons, 0);
 
     return result;

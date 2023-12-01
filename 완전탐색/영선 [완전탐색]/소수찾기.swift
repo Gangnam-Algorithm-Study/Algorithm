@@ -37,7 +37,6 @@ func solution(_ numbers: String) -> Int {
     
     // (계산값, 현재길이, 목표길이)
     func DFS(result: Int, currentLen: Int, len: Int) {
-        
         // 목표길이가 되면 소수인지 판별
         if currentLen == len {
             if isPrime(result) { primes.insert(result) }
